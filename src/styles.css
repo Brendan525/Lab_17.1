@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-color: lightgrey;
+    background-color: F3F1F7;
     text-align: center;
     font-family: Homemade Apple, Dosis;
 };
@@ -26,7 +26,7 @@ h4 {
 }
 
 .box1 {
-    background-color: lightblue;
+    background-color: B1DDEA;
     border-radius: 15px;
     width: 600px;
     flex-direction: column;

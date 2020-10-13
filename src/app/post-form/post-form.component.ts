@@ -20,7 +20,6 @@ export class PostFormComponent {
   Input: boolean;
   previousTitle: string;
 
-
   addPost = () => {
     const newPost = {
       title: this.titleInput,
