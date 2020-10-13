@@ -1,0 +1,17 @@
+<button class="header" (click)="toggleSection()">New Thought?</button>
+
+<section class="box1" [hidden]="hideTitle"> <!--[ngClass]="classList-->
+
+    <h4>Title</h4>  
+    <p class="title">
+        <input class="titleBox" type="text" placeholder="Post title" [(ngModel)]="titleInput"/>
+    </p>
+    
+    <h4>Post</h4>
+    <p class="post">
+        <input class="postBox" type="text" placeholder="What are you thinking?" [(ngModel)]="thoughtInput"/>
+    </p> 
+    
+    <button class="addThought" (click)="addPost()">Add Post</button>
+
+    </section>

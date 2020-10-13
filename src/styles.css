@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: Homemade Apple, Dosis;
+};
+
+h4 {    
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.addThought {
+    margin-left: 240px;
+} 
+
+.header {
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 600px;
+    flex-direction: column;
+    border: 1px;    
+    text-align: left;
+    margin-left: 30%;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+};
+
+.another {
+    background-color: white;
+    border-radius: 15px;
+    width: 600px;
+    flex-direction: column;
+    border: 1px;    
+    text-align: left;
+    margin-left: 325px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+};
+
+p {
+    margin: 0%;
+}
+
+input {
+    padding-right: 57%;
+    width: 500px
+};
+
+.titleBox {
+    width: 400px;
+    height: 200px;
+}
+
+.postBox { 
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.first, .second {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    border-bottom-style: solid;
+    border-color: green;
+    border-bottom-width: 5px ;
+}
